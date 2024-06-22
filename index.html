@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
   <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
@@ -32,6 +34,13 @@
   <!--  -->
   <!--  -->
   <style>
+    body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
     .contact_section {
         padding: 20px 0;
     }
@@ -42,6 +51,8 @@
         align-items: center;
         padding: 0 20px;
         box-sizing: border-box;
+
+  flex-wrap: wrap;
     }
     .wrapper {
         display: flex;
@@ -109,6 +120,25 @@
         font-weight: 600;
         cursor: pointer;
     }
+
+    /*  */
+    /*  */
+    /*  */
+
+    .responsive-img {
+  width: 100%;
+  height: auto;
+  max-width: 250px; /* Default width for larger screens */
+}
+
+@media only screen and (max-width: 200px) {
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Adjust width for mobile screens */
+  }
+}
+
 </style>
 
 
@@ -223,7 +253,7 @@
                       Discover the finest furniture crafted for every corner of your home. From elegant bedroom sets to stylish kitchen essentials, we bring you quality and design like never before.
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1">
+                      <a href="readmore.html" class="btn-1">
                         Read More
                       </a>
                       <!-- <a href="#contact" class="btn-2"> -->
@@ -254,7 +284,7 @@
                       Discover the finest furniture crafted for every corner of your home. From elegant bedroom sets to stylish kitchen essentials, we bring you quality and design like never before.
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1">
+                      <a href="readmore.html" class="btn-1">
                         Read More
                       </a>
                       <a href="" class="btn-2">
@@ -284,7 +314,7 @@
                       Discover the finest furniture crafted for every corner of your home. From elegant bedroom sets to stylish kitchen essentials, we bring you quality and design like never before.
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1">
+                      <a href="readmore.html" class="btn-1">
                         Read More
                       </a>
                       <a href="" class="btn-2">
@@ -314,7 +344,7 @@
                       Discover the finest furniture crafted for every corner of your home. From elegant bedroom sets to stylish kitchen essentials, we bring you quality and design like never before.
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1">
+                      <a href="readmore.html" class="btn-1">
                         Read More
                       </a>
                       <a href="" class="btn-2">
@@ -354,7 +384,7 @@
               With over 20 years of experience, Royal Group has established itself as a leader in the import-export industry. Our furniture division caters to all your home needs, providing premium quality and exceptional service. 
               <h5>You say it, We have it.</h5>
             </p>
-            <a href="">
+            <a href="readmore.html">
               Read More
             </a>
           </div>
@@ -446,18 +476,18 @@
               <div class="img_container ">
                 <div class="box b-1">
                   <div class="img-box">
-                    <img src="images/t-1.jpg" alt="">
+                    <img class="responsive-img" src="images/t-1.jpg" alt="">
                   </div>
                   <div class="img-box">
-                    <img src="images/t-2.jpg" alt="">
+                    <img class="responsive-img" src="images/t-2.jpg" alt="">
                   </div>
                 </div>
                 <div class="box b-2">
                   <div class="img-box">
-                    <img src="images/t-3.jpg" alt="">
+                    <img class="responsive-img" src="images/t-3.jpg" alt="">
                   </div>
                   <div class="img-box">
-                    <img src="images/t-4.jpg" alt="">
+                    <img class="responsive-img" src="images/t-4.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -466,19 +496,19 @@
               <div class="img_container ">
                 <div class="box b-1">
                   <div class="img-box">
-                    <img src="images/table1.jpg" alt="">
+                    <img class="responsive-img" src="images/table1HD.jpg" alt="">
                   </div>
                   <div class="img-box">
-                    <img src="images/table4.jpg" alt="">
+                    <img class="responsive-img" src="images/table4HD.jpg" alt="">
                   </div>
                 </div>
                 <div class="box b-2">
 
                   <div class="img-box">
-                    <img src="images/table2.jpg" alt="">
+                    <img class="responsive-img" src="images/table2HD.jpg" alt="">
                   </div>
                   <div class="img-box">
-                    <img src="images/table3.jpg" alt="">
+                    <img class="responsive-img" src="images/table3HD.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -487,18 +517,18 @@
               <div class="img_container ">
                 <div class="box b-1">
                   <div class="img-box">
-                    <img src="images/bed1.jpg" alt="">
+                    <img class="responsive-img" src="images/bed1HD.jpg" alt="">
                   </div>
                   <div class="img-box">
-                    <img src="images/bed2.jpg" alt="">
+                    <img class="responsive-img" src="images/bed2HD.jpg" alt="">
                   </div>
                 </div>
                 <div class="box b-2">
                   <div class="img-box">
-                    <img src="images/bed3.jpg" alt="">
+                    <img class="responsive-img" src="images/bed3HD.jpg" alt="">
                   </div>
                   <div class="img-box">
-                    <img src="images/bed4.jpg" alt="">
+                    <img class="responsive-img" src="images/bed4HD.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -507,19 +537,19 @@
               <div class="img_container ">
                 <div class="box b-1">
                   <div class="img-box">
-                    <img src="images/croc2.jpg" alt="">
+                    <img class="responsive-img"  src="images/croc2HD.jpg" alt="">
                   </div>
 
                   <div class="img-box">
-                    <img src="images/croc4.jpg" alt="">
+                    <img class="responsive-img"  src="images/croc4HD.jpg" alt="">
                   </div>
                 </div>
                 <div class="box b-2">
                   <div class="img-box">
-                    <img src="images/croc1.jpg" alt="">
+                    <img class="responsive-img"  src="images/croc1HD.jpg" alt="">
                   </div>
                   <div class="img-box">
-                    <img src="images/croc3.jpg" alt="">
+                    <img class="responsive-img" src="images/croc3HD.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -549,7 +579,7 @@
 
             <div class="">
               <a href="">
-                Buy Now
+                Explore more
               </a>
             </div>
           </div>
@@ -584,9 +614,9 @@
               <img style="margin-bottom: 23px;" src="images/slider-img.png" alt="">
             </div>
             <div class="detail-box">
-              <h6 class="price">
+              <!-- <h6 class="price">
                 $100
-              </h6>
+              </h6> -->
               <h6>
                 Chair
               </h6>
@@ -599,9 +629,9 @@
               <img src="images/product1.png" alt="">
             </div>
             <div class="detail-box">
-              <h6 class="price">
+              <!-- <h6 class="price">
                 $100
-              </h6>
+              </h6> -->
               <h6>
                 Chair
               </h6>
@@ -614,9 +644,9 @@
               <img src="images/chair1.png" alt="">
             </div>
             <div class="detail-box">
-              <h6 class="price">
+              <!-- <h6 class="price">
                 $100
-              </h6>
+              </h6> -->
               <h6>
                 Chair
               </h6>
@@ -629,9 +659,9 @@
               <img style="height: 15rem;" src="images/product5.png" alt="">
             </div>
             <div class="detail-box">
-              <h6 class="price">
+              <!-- <h6 class="price">
                 $100
-              </h6>
+              </h6> -->
               <h6>
                 Chair
               </h6>
@@ -830,12 +860,12 @@
               <div>
                 <a href="">
                   <div class="insta-box b-1">
-                    <img src="images/i1.jpg" alt="">
+                    <img style="width: 66px; height: 54px;" src="images/i1HD.jpg" alt="">
                   </div>
                 </a>
                 <a href="">
                   <div class="insta-box b-2">
-                    <img src="images/i2.jpg" alt="">
+                    <img style="width: 66px; height: 54px;" src="images/i2HD.jpg" alt="">
                   </div>
                 </a>
               </div>
@@ -843,24 +873,24 @@
               <div>
                 <a href="">
                   <div class="insta-box b-3">
-                    <img src="images/i3.jpg" alt="">
+                    <img style="width: 66px; height: 54px;" src="images/i3HD.jpg" alt="">
                   </div>
                 </a>
                 <a href="">
                   <div class="insta-box b-4">
-                    <img src="images/i4.jpeg" alt="">
+                    <img style="width: 66px; height: 54px;" src="images/i4HD.jpeg" alt="">
                   </div>
                 </a>
               </div>
               <div>
                 <a href="">
                   <div class="insta-box b-3">
-                    <img src="images/i5.jpg" alt="">
+                    <img style="width: 66px; height: 54px;" src="images/i5HD.jpg" alt="">
                   </div>
                 </a>
                 <a href="">
                   <div class="insta-box b-4">
-                    <img src="images/i6.jpg" alt="">
+                    <img style="width: 66px; height: 54px;" src="images/i6HD.jpg" alt="">
                   </div>
                 </a>
               </div>
